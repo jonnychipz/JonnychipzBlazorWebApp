@@ -1,5 +1,5 @@
 ﻿<StaticWebAssets Version="1.0">
+  <ContentRoot BasePath="/" Path="D:\Projects\BlazorDemo\JonnychipzBlazorWebApp\client\bin\Debug\net5.0\wwwroot\" />
   <ContentRoot BasePath="_content/MatBlazor" Path="C:\Users\JohnLunn\.nuget\packages\matblazor\2.8.0\build\..\staticwebassets\" />
   <ContentRoot BasePath="_content/Radzen.Blazor" Path="C:\Users\JohnLunn\.nuget\packages\radzen.blazor\3.0.2\build\..\staticwebassets\" />
-  <ContentRoot BasePath="/" Path="D:\Projects\BlazorDemo\JonnychipzBlazorWebApp\client\bin\Debug\net5.0\wwwroot\" />
 </StaticWebAssets>
