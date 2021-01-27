@@ -6,7 +6,6 @@ EXPOSE 443
 FROM mcr.microsoft.com/dotnet/sdk:5.0 AS build
 WORKDIR /src
 COPY ["/server/JonnychipzBlazorWebApp.Server.csproj", "server/"]
-CMD PING 8.8.8.8
 RUN dotnet restore "server/JonnychipzBlazorWebApp.Server.csproj"
 COPY . .
 WORKDIR "/src/server"
