@@ -21,6 +21,14 @@
           ],
           "name": "col0",
           "type": "col"
+        },
+        {
+          "name": "image0",
+          "path": "/assets/images/jonnychipz logo.jpg",
+          "style": {
+            "width": "579px"
+          },
+          "type": "image"
         }
       ],
       "container": "main",

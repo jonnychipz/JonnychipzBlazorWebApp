@@ -3,13 +3,12 @@ WORKDIR /app
 EXPOSE 80
 EXPOSE 443
 
-FROM mcr.microsoft.com/dotnet/sdk:5.0 AS build
+FROM mcr.microsoft.com/dotnet/sdk:5.0-focal AS build
 WORKDIR /src
 COPY ["/server/JonnychipzBlazorWebApp.Server.csproj", "server/"]
 RUN dotnet restore "server/JonnychipzBlazorWebApp.Server.csproj"
 COPY . .
 WORKDIR "/src/server"
-
 
 RUN dotnet build "JonnychipzBlazorWebApp.Server.csproj" -c Release -o /app/build
 
