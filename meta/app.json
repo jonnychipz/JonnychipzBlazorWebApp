@@ -1,0 +1,48 @@
+{
+  "cssFiles": [],
+  "dataSources": [],
+  "generator": "@radzen/blazor-server",
+  "https": false,
+  "ignore": [
+    ""
+  ],
+  "javaScriptFiles": [],
+  "layouts": [
+    "Login",
+    "Main"
+  ],
+  "localization": {
+    "cultures": [
+      {
+        "text": "English - United Kingdom",
+        "value": "en-GB"
+      }
+    ],
+    "defaultCulture": {
+      "text": "English - United Kingdom",
+      "value": "en-GB"
+    }
+  },
+  "logo": "",
+  "name": "JonnychipzBlazorWebApp",
+  "namespaces": [],
+  "navigation": [
+    "Home",
+    "Robot Arm"
+  ],
+  "pages": [
+    "Home",
+    "Robot Arm"
+  ],
+  "port": 8000,
+  "pwa": false,
+  "serverLang": "cs",
+  "serverPort": 5000,
+  "serverProject": true,
+  "serverVersion": "5",
+  "startPage": "Home",
+  "theme": "material-dark",
+  "themeSettings": null,
+  "title": "JonnychipzBlazorWebApp",
+  "wasm": true
+}

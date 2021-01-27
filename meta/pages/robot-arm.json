@@ -1,0 +1,95 @@
+{
+  "access": [],
+  "components": [
+    {
+      "components": [
+        {
+          "name": "pageTitle",
+          "size": "H1",
+          "text": "Robot Arm",
+          "type": "heading"
+        },
+        {
+          "name": "image0",
+          "path": "/assets/images/robotarm.JPEG",
+          "style": {
+            "height": "277px",
+            "width": "393px"
+          },
+          "type": "image"
+        },
+        {
+          "components": [
+            {
+              "attributes": [],
+              "disabled": false,
+              "name": "slider0",
+              "range": false,
+              "style": {
+                "display": "inline-block",
+                "float": "none",
+                "width": "100%"
+              },
+              "type": "slider",
+              "value": ""
+            }
+          ],
+          "headerTemplate": "",
+          "icon": "settings",
+          "name": "panel0",
+          "text": "Servo 1",
+          "type": "panel"
+        },
+        {
+          "components": [
+            {
+              "name": "slider1",
+              "style": {
+                "width": "100%"
+              },
+              "type": "slider"
+            }
+          ],
+          "icon": "settings",
+          "name": "panel1",
+          "text": "Servo 2",
+          "type": "panel"
+        },
+        {
+          "components": [
+            {
+              "name": "slider2",
+              "style": {
+                "width": "100%"
+              },
+              "type": "slider"
+            }
+          ],
+          "icon": "settings",
+          "name": "panel2",
+          "text": "Servo 3",
+          "type": "panel"
+        },
+        {
+          "components": [
+            {
+              "name": "slider3",
+              "style": {
+                "width": "100%"
+              },
+              "type": "slider"
+            }
+          ],
+          "icon": "settings",
+          "name": "panel3",
+          "text": "Servo 4",
+          "type": "panel"
+        }
+      ],
+      "container": "main",
+      "type": "content"
+    }
+  ],
+  "layout": "Main",
+  "name": "Robot Arm"
+}

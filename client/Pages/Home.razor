@@ -1,0 +1,18 @@
+﻿@page "/"
+@page "/home"
+@layout MainLayout
+@inherits JonnychipzBlazorWebApp.Pages.HomeComponent
+
+@using Radzen
+@using Radzen.Blazor
+@inject Microsoft.Extensions.Localization.IStringLocalizer<Home> L
+<RadzenContent Container="main">
+  <ChildContent>
+    <RadzenHeading Size="H1" Text="Home">
+    </RadzenHeading>
+    <div class="col-md-12">
+      <RadzenHeading Size="H3" Text="Welcome to Jonnychipz Containerised Web App">
+      </RadzenHeading>
+    </div>
+  </ChildContent>
+</RadzenContent>
