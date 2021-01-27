@@ -176,6 +176,10 @@
               "target": "Package",
               "version": "[5.0.0, )"
             },
+            "Microsoft.Win32.SystemEvents": {
+              "target": "Package",
+              "version": "[4.7.0, )"
+            },
             "System.ComponentModel.Annotations": {
               "target": "Package",
               "version": "[5.0.0, )"
