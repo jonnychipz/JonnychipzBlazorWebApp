@@ -46,12 +46,12 @@
             },
             "Microsoft.AspNetCore.Components.WebAssembly": {
               "target": "Package",
-              "version": "[5.0.0, )"
+              "version": "[5.0.2, )"
             },
             "Microsoft.AspNetCore.Components.WebAssembly.DevServer": {
               "suppressParent": "All",
               "target": "Package",
-              "version": "[5.0.0, )"
+              "version": "[5.0.2, )"
             },
             "Microsoft.AspNetCore.SignalR.Client": {
               "target": "Package",
@@ -63,7 +63,7 @@
             },
             "Microsoft.Extensions.Localization": {
               "target": "Package",
-              "version": "[5.0.0, )"
+              "version": "[5.0.2, )"
             },
             "Radzen.Blazor": {
               "target": "Package",
@@ -146,39 +146,41 @@
           "dependencies": {
             "DocumentFormat.OpenXml": {
               "target": "Package",
-              "version": "[2.11.3, )"
+              "version": "[2.12.1, )"
             },
             "Microsoft.AspNetCore.Components.WebAssembly.Server": {
               "target": "Package",
-              "version": "[5.0.0, )"
+              "version": "[5.0.2, )"
             },
             "Microsoft.AspNetCore.Diagnostics.EntityFrameworkCore": {
               "target": "Package",
-              "version": "[5.0.0, )"
+              "version": "[5.0.2, )"
             },
             "Microsoft.AspNetCore.Identity.EntityFrameworkCore": {
               "target": "Package",
-              "version": "[5.0.0, )"
+              "version": "[5.0.2, )"
             },
             "Microsoft.AspNetCore.OData": {
               "target": "Package",
-              "version": "[7.5.0, )"
+              "version": "[7.5.5, )"
             },
             "Microsoft.Data.SqlClient": {
               "target": "Package",
-              "version": "[2.0.1, )"
+              "version": "[2.1.1, )"
             },
             "Microsoft.EntityFrameworkCore": {
               "target": "Package",
-              "version": "[5.0.0, )"
+              "version": "[5.0.2, )"
             },
             "Microsoft.EntityFrameworkCore.Design": {
+              "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
+              "suppressParent": "All",
               "target": "Package",
-              "version": "[5.0.0, )"
+              "version": "[5.0.2, )"
             },
             "Microsoft.Win32.SystemEvents": {
               "target": "Package",
-              "version": "[4.7.0, )"
+              "version": "[5.0.0, )"
             },
             "System.ComponentModel.Annotations": {
               "target": "Package",

@@ -46,12 +46,12 @@
             },
             "Microsoft.AspNetCore.Components.WebAssembly": {
               "target": "Package",
-              "version": "[5.0.0, )"
+              "version": "[5.0.2, )"
             },
             "Microsoft.AspNetCore.Components.WebAssembly.DevServer": {
               "suppressParent": "All",
               "target": "Package",
-              "version": "[5.0.0, )"
+              "version": "[5.0.2, )"
             },
             "Microsoft.AspNetCore.SignalR.Client": {
               "target": "Package",
@@ -63,7 +63,7 @@
             },
             "Microsoft.Extensions.Localization": {
               "target": "Package",
-              "version": "[5.0.0, )"
+              "version": "[5.0.2, )"
             },
             "Radzen.Blazor": {
               "target": "Package",

@@ -9,6 +9,7 @@ COPY ["server/JonnychipzBlazorWebApp.Server.csproj", "server/"]
 RUN dotnet restore "server/JonnychipzBlazorWebApp.Server.csproj"
 COPY . .
 WORKDIR "/src/server"
+RUN $NUGET_CERT_REVOCATION_MODE = "offline"
 RUN dotnet build "JonnychipzBlazorWebApp.Server.csproj" -c Release -o /app/build
 
 FROM build AS publish

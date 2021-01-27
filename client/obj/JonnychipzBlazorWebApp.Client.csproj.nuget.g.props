@@ -26,10 +26,10 @@
   </ItemGroup>
   <ImportGroup Condition=" '$(ExcludeRestorePackageImports)' != 'true' ">
     <Import Project="$(NuGetPackageRoot)radzen.blazor\3.0.2\buildTransitive\Radzen.Blazor.props" Condition="Exists('$(NuGetPackageRoot)radzen.blazor\3.0.2\buildTransitive\Radzen.Blazor.props')" />
-    <Import Project="$(NuGetPackageRoot)microsoft.aspnetcore.components.webassembly\5.0.0\build\net5.0\Microsoft.AspNetCore.Components.WebAssembly.props" Condition="Exists('$(NuGetPackageRoot)microsoft.aspnetcore.components.webassembly\5.0.0\build\net5.0\Microsoft.AspNetCore.Components.WebAssembly.props')" />
+    <Import Project="$(NuGetPackageRoot)microsoft.aspnetcore.components.webassembly\5.0.2\build\net5.0\Microsoft.AspNetCore.Components.WebAssembly.props" Condition="Exists('$(NuGetPackageRoot)microsoft.aspnetcore.components.webassembly\5.0.2\build\net5.0\Microsoft.AspNetCore.Components.WebAssembly.props')" />
     <Import Project="$(NuGetPackageRoot)matblazor\2.8.0\buildTransitive\MatBlazor.props" Condition="Exists('$(NuGetPackageRoot)matblazor\2.8.0\buildTransitive\MatBlazor.props')" />
   </ImportGroup>
   <PropertyGroup Condition=" '$(ExcludeRestorePackageImports)' != 'true' ">
-    <PkgMicrosoft_AspNetCore_Components_WebAssembly_DevServer Condition=" '$(PkgMicrosoft_AspNetCore_Components_WebAssembly_DevServer)' == '' ">C:\Users\JohnLunn\.nuget\packages\microsoft.aspnetcore.components.webassembly.devserver\5.0.0</PkgMicrosoft_AspNetCore_Components_WebAssembly_DevServer>
+    <PkgMicrosoft_AspNetCore_Components_WebAssembly_DevServer Condition=" '$(PkgMicrosoft_AspNetCore_Components_WebAssembly_DevServer)' == '' ">C:\Users\JohnLunn\.nuget\packages\microsoft.aspnetcore.components.webassembly.devserver\5.0.2</PkgMicrosoft_AspNetCore_Components_WebAssembly_DevServer>
   </PropertyGroup>
 </Project>
