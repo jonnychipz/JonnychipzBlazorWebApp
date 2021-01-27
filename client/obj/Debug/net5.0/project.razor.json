@@ -392,59 +392,6 @@
         }
       },
       {
-        "HashCode": 944761342,
-        "Kind": "Components.Component",
-        "Name": "JonnychipzBlazorWebApp.Client.Pages.RobotArm",
-        "AssemblyName": "JonnychipzBlazorWebApp.Client",
-        "CaseSensitive": true,
-        "TagMatchingRules": [
-          {
-            "TagName": "RobotArm"
-          }
-        ],
-        "BoundAttributes": [
-          {
-            "Kind": "Components.Component",
-            "Name": "Attributes",
-            "TypeName": "System.Collections.Generic.IReadOnlyDictionary<System.String, dynamic>",
-            "Metadata": {
-              "Common.PropertyName": "Attributes"
-            }
-          }
-        ],
-        "Metadata": {
-          "Runtime.Name": "Components.IComponent",
-          "Common.TypeName": "JonnychipzBlazorWebApp.Client.Pages.RobotArm"
-        }
-      },
-      {
-        "HashCode": -1204028565,
-        "Kind": "Components.Component",
-        "Name": "JonnychipzBlazorWebApp.Client.Pages.RobotArm",
-        "AssemblyName": "JonnychipzBlazorWebApp.Client",
-        "CaseSensitive": true,
-        "TagMatchingRules": [
-          {
-            "TagName": "JonnychipzBlazorWebApp.Client.Pages.RobotArm"
-          }
-        ],
-        "BoundAttributes": [
-          {
-            "Kind": "Components.Component",
-            "Name": "Attributes",
-            "TypeName": "System.Collections.Generic.IReadOnlyDictionary<System.String, dynamic>",
-            "Metadata": {
-              "Common.PropertyName": "Attributes"
-            }
-          }
-        ],
-        "Metadata": {
-          "Runtime.Name": "Components.IComponent",
-          "Common.TypeName": "JonnychipzBlazorWebApp.Client.Pages.RobotArm",
-          "Components.NameMatch": "Components.FullyQualifiedNameMatch"
-        }
-      },
-      {
         "HashCode": 924393040,
         "Kind": "Components.Component",
         "Name": "JonnychipzBlazorWebApp.Client.Shared.LoginLayout",
