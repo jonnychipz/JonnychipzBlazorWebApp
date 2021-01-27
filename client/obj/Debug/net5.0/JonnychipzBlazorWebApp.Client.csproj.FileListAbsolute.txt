@@ -664,3 +664,4 @@ D:\Projects\BlazorDemo\JonnychipzBlazorWebApp\client\obj\Debug\net5.0\Jonnychipz
 D:\Projects\BlazorDemo\JonnychipzBlazorWebApp\client\obj\Debug\net5.0\JonnychipzBlazorWebApp.Client.dll
 D:\Projects\BlazorDemo\JonnychipzBlazorWebApp\client\obj\Debug\net5.0\ref\JonnychipzBlazorWebApp.Client.dll
 D:\Projects\BlazorDemo\JonnychipzBlazorWebApp\client\obj\Debug\net5.0\JonnychipzBlazorWebApp.Client.pdb
+D:\Projects\BlazorDemo\JonnychipzBlazorWebApp\client\obj\Debug\net5.0\JonnychipzBlazorWebApp.Client.csprojAssemblyReference.cache

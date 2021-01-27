@@ -5,11 +5,13 @@ EXPOSE 443
 
 FROM mcr.microsoft.com/dotnet/sdk:5.0 AS build
 WORKDIR /src
-COPY ["server/JonnychipzBlazorWebApp.Server.csproj", "server/"]
+COPY ["/server/JonnychipzBlazorWebApp.Server.csproj", "server/"]
+CMD PING 8.8.8.8
 RUN dotnet restore "server/JonnychipzBlazorWebApp.Server.csproj"
 COPY . .
 WORKDIR "/src/server"
-RUN $NUGET_CERT_REVOCATION_MODE = "offline"
+
+
 RUN dotnet build "JonnychipzBlazorWebApp.Server.csproj" -c Release -o /app/build
 
 FROM build AS publish
