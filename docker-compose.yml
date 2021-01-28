@@ -2,8 +2,8 @@
 version: '3.4'
 
 services:
-  jonnychipzblazorwasm:
-    image: jonnychipzblazorwasm
+  jonnychipz-blazorwasm:
+    image: jonnychipz-blazorwasm
     build:
       context: .
       dockerfile: server/Dockerfile
