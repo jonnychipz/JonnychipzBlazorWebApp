@@ -63473,7 +63473,7 @@
         }
       },
       {
-        "HashCode": -227211482,
+        "HashCode": 2006528527,
         "Kind": "Components.Component",
         "Name": "Radzen.Blazor.RadzenAutoComplete",
         "AssemblyName": "Radzen.Blazor",
@@ -63484,6 +63484,14 @@
           }
         ],
         "BoundAttributes": [
+          {
+            "Kind": "Components.Component",
+            "Name": "MinLength",
+            "TypeName": "System.Int32",
+            "Metadata": {
+              "Common.PropertyName": "MinLength"
+            }
+          },
           {
             "Kind": "Components.Component",
             "Name": "FilterDelay",
@@ -63659,7 +63667,7 @@
         }
       },
       {
-        "HashCode": -1360103407,
+        "HashCode": -971769533,
         "Kind": "Components.Component",
         "Name": "Radzen.Blazor.RadzenAutoComplete",
         "AssemblyName": "Radzen.Blazor",
@@ -63670,6 +63678,14 @@
           }
         ],
         "BoundAttributes": [
+          {
+            "Kind": "Components.Component",
+            "Name": "MinLength",
+            "TypeName": "System.Int32",
+            "Metadata": {
+              "Common.PropertyName": "MinLength"
+            }
+          },
           {
             "Kind": "Components.Component",
             "Name": "FilterDelay",
@@ -68414,7 +68430,7 @@
         }
       },
       {
-        "HashCode": -1042787224,
+        "HashCode": 32547621,
         "Kind": "Components.Component",
         "Name": "Radzen.Blazor.RadzenDatePicker<TValue>",
         "AssemblyName": "Radzen.Blazor",
@@ -68433,6 +68449,14 @@
             "Metadata": {
               "Common.PropertyName": "TValue",
               "Components.TypeParameter": "True"
+            }
+          },
+          {
+            "Kind": "Components.Component",
+            "Name": "AllowClear",
+            "TypeName": "System.Boolean",
+            "Metadata": {
+              "Common.PropertyName": "AllowClear"
             }
           },
           {
@@ -68667,7 +68691,7 @@
         }
       },
       {
-        "HashCode": 879186438,
+        "HashCode": -708717700,
         "Kind": "Components.Component",
         "Name": "Radzen.Blazor.RadzenDatePicker<TValue>",
         "AssemblyName": "Radzen.Blazor",
@@ -68686,6 +68710,14 @@
             "Metadata": {
               "Common.PropertyName": "TValue",
               "Components.TypeParameter": "True"
+            }
+          },
+          {
+            "Kind": "Components.Component",
+            "Name": "AllowClear",
+            "TypeName": "System.Boolean",
+            "Metadata": {
+              "Common.PropertyName": "AllowClear"
             }
           },
           {
@@ -70131,7 +70163,7 @@
         }
       },
       {
-        "HashCode": -873503964,
+        "HashCode": 2021443640,
         "Kind": "Components.Component",
         "Name": "Radzen.Blazor.RadzenDropDownDataGrid<TValue>",
         "AssemblyName": "Radzen.Blazor",
@@ -70150,6 +70182,14 @@
             "Metadata": {
               "Common.PropertyName": "TValue",
               "Components.TypeParameter": "True"
+            }
+          },
+          {
+            "Kind": "Components.Component",
+            "Name": "ColumnWidth",
+            "TypeName": "System.String",
+            "Metadata": {
+              "Common.PropertyName": "ColumnWidth"
             }
           },
           {
@@ -70247,6 +70287,14 @@
             "TypeName": "System.Boolean",
             "Metadata": {
               "Common.PropertyName": "AllowFiltering"
+            }
+          },
+          {
+            "Kind": "Components.Component",
+            "Name": "AllowFilteringByAllStringColumns",
+            "TypeName": "System.Boolean",
+            "Metadata": {
+              "Common.PropertyName": "AllowFilteringByAllStringColumns"
             }
           },
           {
@@ -70495,7 +70543,7 @@
         }
       },
       {
-        "HashCode": 2003407312,
+        "HashCode": -1834739943,
         "Kind": "Components.Component",
         "Name": "Radzen.Blazor.RadzenDropDownDataGrid<TValue>",
         "AssemblyName": "Radzen.Blazor",
@@ -70514,6 +70562,14 @@
             "Metadata": {
               "Common.PropertyName": "TValue",
               "Components.TypeParameter": "True"
+            }
+          },
+          {
+            "Kind": "Components.Component",
+            "Name": "ColumnWidth",
+            "TypeName": "System.String",
+            "Metadata": {
+              "Common.PropertyName": "ColumnWidth"
             }
           },
           {
@@ -70611,6 +70667,14 @@
             "TypeName": "System.Boolean",
             "Metadata": {
               "Common.PropertyName": "AllowFiltering"
+            }
+          },
+          {
+            "Kind": "Components.Component",
+            "Name": "AllowFilteringByAllStringColumns",
+            "TypeName": "System.Boolean",
+            "Metadata": {
+              "Common.PropertyName": "AllowFilteringByAllStringColumns"
             }
           },
           {
@@ -73264,7 +73328,7 @@
         }
       },
       {
-        "HashCode": -1877681695,
+        "HashCode": 824189137,
         "Kind": "Components.Component",
         "Name": "Radzen.Blazor.RadzenGrid<TItem>",
         "AssemblyName": "Radzen.Blazor",
@@ -73479,6 +73543,24 @@
             "TypeName": "System.Boolean",
             "Metadata": {
               "Common.PropertyName": "AllowFiltering"
+            }
+          },
+          {
+            "Kind": "Components.Component",
+            "Name": "AllowColumnResize",
+            "TypeName": "System.Boolean",
+            "Metadata": {
+              "Common.PropertyName": "AllowColumnResize"
+            }
+          },
+          {
+            "Kind": "Components.Component",
+            "Name": "ColumnResized",
+            "TypeName": "Microsoft.AspNetCore.Components.EventCallback<Radzen.ColumnResizedEventArgs<TItem>>",
+            "Metadata": {
+              "Common.PropertyName": "ColumnResized",
+              "Components.EventCallback": "True",
+              "Components.GenericTyped": "True"
             }
           },
           {
@@ -73755,7 +73837,7 @@
         }
       },
       {
-        "HashCode": -1684742555,
+        "HashCode": -1569827114,
         "Kind": "Components.Component",
         "Name": "Radzen.Blazor.RadzenGrid<TItem>",
         "AssemblyName": "Radzen.Blazor",
@@ -73970,6 +74052,24 @@
             "TypeName": "System.Boolean",
             "Metadata": {
               "Common.PropertyName": "AllowFiltering"
+            }
+          },
+          {
+            "Kind": "Components.Component",
+            "Name": "AllowColumnResize",
+            "TypeName": "System.Boolean",
+            "Metadata": {
+              "Common.PropertyName": "AllowColumnResize"
+            }
+          },
+          {
+            "Kind": "Components.Component",
+            "Name": "ColumnResized",
+            "TypeName": "Microsoft.AspNetCore.Components.EventCallback<Radzen.ColumnResizedEventArgs<TItem>>",
+            "Metadata": {
+              "Common.PropertyName": "ColumnResized",
+              "Components.EventCallback": "True",
+              "Components.GenericTyped": "True"
             }
           },
           {
@@ -81343,7 +81443,7 @@
         }
       },
       {
-        "HashCode": -1201347675,
+        "HashCode": -1369001385,
         "Kind": "Components.Component",
         "Name": "Radzen.Blazor.RadzenMenu",
         "AssemblyName": "Radzen.Blazor",
@@ -81354,6 +81454,14 @@
           }
         ],
         "BoundAttributes": [
+          {
+            "Kind": "Components.Component",
+            "Name": "Responsive",
+            "TypeName": "System.Boolean",
+            "Metadata": {
+              "Common.PropertyName": "Responsive"
+            }
+          },
           {
             "Kind": "Components.Component",
             "Name": "Click",
@@ -81430,7 +81538,7 @@
         }
       },
       {
-        "HashCode": -1624488731,
+        "HashCode": -618756590,
         "Kind": "Components.Component",
         "Name": "Radzen.Blazor.RadzenMenu",
         "AssemblyName": "Radzen.Blazor",
@@ -81441,6 +81549,14 @@
           }
         ],
         "BoundAttributes": [
+          {
+            "Kind": "Components.Component",
+            "Name": "Responsive",
+            "TypeName": "System.Boolean",
+            "Metadata": {
+              "Common.PropertyName": "Responsive"
+            }
+          },
           {
             "Kind": "Components.Component",
             "Name": "Click",
@@ -94108,7 +94224,7 @@
         }
       },
       {
-        "HashCode": 1542192258,
+        "HashCode": -527171650,
         "Kind": "Components.Component",
         "Name": "Radzen.Blazor.Rendering.Draggable",
         "AssemblyName": "Radzen.Blazor",
@@ -94134,6 +94250,15 @@
             "TypeName": "Microsoft.AspNetCore.Components.EventCallback<Radzen.Blazor.Rendering.DraggableEventArgs>",
             "Metadata": {
               "Common.PropertyName": "DragStart",
+              "Components.EventCallback": "True"
+            }
+          },
+          {
+            "Kind": "Components.Component",
+            "Name": "DragEnd",
+            "TypeName": "Microsoft.AspNetCore.Components.EventCallback<Radzen.Blazor.Rendering.DraggableEventArgs>",
+            "Metadata": {
+              "Common.PropertyName": "DragEnd",
               "Components.EventCallback": "True"
             }
           },
@@ -94204,7 +94329,7 @@
         }
       },
       {
-        "HashCode": 196896614,
+        "HashCode": -1915773013,
         "Kind": "Components.Component",
         "Name": "Radzen.Blazor.Rendering.Draggable",
         "AssemblyName": "Radzen.Blazor",
@@ -94230,6 +94355,15 @@
             "TypeName": "Microsoft.AspNetCore.Components.EventCallback<Radzen.Blazor.Rendering.DraggableEventArgs>",
             "Metadata": {
               "Common.PropertyName": "DragStart",
+              "Components.EventCallback": "True"
+            }
+          },
+          {
+            "Kind": "Components.Component",
+            "Name": "DragEnd",
+            "TypeName": "Microsoft.AspNetCore.Components.EventCallback<Radzen.Blazor.Rendering.DraggableEventArgs>",
+            "Metadata": {
+              "Common.PropertyName": "DragEnd",
               "Components.EventCallback": "True"
             }
           },
