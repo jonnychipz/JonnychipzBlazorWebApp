@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "dgSpecHash": "vHAesY8lO3PVSlV5oDOZ75Ys7qP42NLX/uq76w/I10h66JmHlfB8whgkgfLnvP6BzWksFP/zGYytG1lS4dGmGA==",
+  "dgSpecHash": "hVerS09qPjwWNWa1d+zPp5CwqSNSiy8RbFHxOwo69ggRO6C6PqDGtd0MCOndlCUWwTDnwFIzWJGUuMy2ELAPwg==",
   "success": true,
   "projectFilePath": "D:\\Projects\\BlazorDemo\\JonnychipzBlazorWebApp\\client\\JonnychipzBlazorWebApp.Client.csproj",
   "expectedPackageFiles": [
@@ -41,7 +41,7 @@
     "C:\\Users\\JohnLunn\\.nuget\\packages\\microsoft.extensions.primitives\\5.0.0\\microsoft.extensions.primitives.5.0.0.nupkg.sha512",
     "C:\\Users\\JohnLunn\\.nuget\\packages\\microsoft.jsinterop\\5.0.2\\microsoft.jsinterop.5.0.2.nupkg.sha512",
     "C:\\Users\\JohnLunn\\.nuget\\packages\\microsoft.jsinterop.webassembly\\5.0.2\\microsoft.jsinterop.webassembly.5.0.2.nupkg.sha512",
-    "C:\\Users\\JohnLunn\\.nuget\\packages\\radzen.blazor\\3.0.2\\radzen.blazor.3.0.2.nupkg.sha512",
+    "C:\\Users\\JohnLunn\\.nuget\\packages\\radzen.blazor\\3.0.6\\radzen.blazor.3.0.6.nupkg.sha512",
     "C:\\Users\\JohnLunn\\.nuget\\packages\\system.io.pipelines\\5.0.1\\system.io.pipelines.5.0.1.nupkg.sha512",
     "C:\\Users\\JohnLunn\\.nuget\\packages\\system.linq.dynamic.core\\1.2.2\\system.linq.dynamic.core.1.2.2.nupkg.sha512",
     "C:\\Users\\JohnLunn\\.nuget\\packages\\system.net.http.json\\5.0.0\\system.net.http.json.5.0.0.nupkg.sha512",
