@@ -7,7 +7,7 @@ services:
     build:
       context: .
       dockerfile: server/Dockerfile
-    ports:
-      - 4080:80
-      - 5443:443
+    #ports:
+      #- 4080:80
+      #- 5443:443
   
