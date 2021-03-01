@@ -1,0 +1,30 @@
+variables:
+- name: BuildParameters.azureContainerRegistry
+  value: '{"loginServer":"jonnychipzacr001.azurecr.io", "id" : "/subscriptions/38399923-d72c-43b4-b46e-33a0b9161080/resourceGroups/jonnychipz-acr-rg/providers/Microsoft.ContainerRegistry/registries/jonnychipzacr001"}'
+resources:
+  repositories:
+  - repository: self
+    type: git
+    ref: master
+jobs:
+- job: Job_1
+  displayName: Agent job 1
+  pool:
+    vmImage: ubuntu-20.04
+  steps:
+  - checkout: self
+  - task: DockerCompose@0
+    displayName: Docker Compose
+    inputs:
+      azureSubscriptionEndpoint: 8865ac62-7d0d-438e-932f-c0eeabfac818
+      azureContainerRegistry: $(BuildParameters.azureContainerRegistry)
+      dockerComposeFile: docker-compose.yml
+      dockerComposeCommand: up --build --no-start
+  - task: DockerCompose@0
+    displayName: Push services
+    inputs:
+      azureSubscriptionEndpoint: 8865ac62-7d0d-438e-932f-c0eeabfac818
+      azureContainerRegistry: '{"loginServer":"jonnychipzacr001.azurecr.io", "id" : "/subscriptions/38399923-d72c-43b4-b46e-33a0b9161080/resourceGroups/jonnychipz-acr-rg/providers/Microsoft.ContainerRegistry/registries/jonnychipzacr001"}'
+      dockerComposeFile: docker-compose.yml
+      action: Push services
+...
