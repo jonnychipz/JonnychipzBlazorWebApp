@@ -1,3 +1,5 @@
+trigger:
+- master
 variables:
 - name: BuildParameters.azureContainerRegistry
   value: '{"loginServer":"jonnychipzacr001.azurecr.io", "id" : "/subscriptions/38399923-d72c-43b4-b46e-33a0b9161080/resourceGroups/jonnychipz-acr-rg/providers/Microsoft.ContainerRegistry/registries/jonnychipzacr001"}'
