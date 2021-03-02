@@ -10,7 +10,7 @@ resources:
     ref: master
 jobs:
 - job: Job_1
-  displayName: Agent job 1
+  displayName: AGENT JOB 1 
   pool:
     vmImage: ubuntu-20.04
   steps:
